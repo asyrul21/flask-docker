@@ -7,7 +7,7 @@ class HelloWorld(Resource):
     # restful automatically maps method name to request type
     def get(self):
         return {
-            'message': 'Hello World!'
+            'message': 'Hello World from Docker new!'
         }
 
     def post(self):
